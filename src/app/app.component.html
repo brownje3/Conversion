@@ -1,25 +1,20 @@
-<nav class="main-navbar">
-    <a [routerLink]="['/']" routerLinkActive="router-link-active" >
-        Home
-    </a>
-    |
-    <a [routerLink]="['main']" routerLinkActive="router-link-active" >
-        Books
-    </a>
-    |
-    <a [routerLink]="['/bio']" routerLinkActive="router-link-active" >
-        Biography
-    </a>
-    |
-    <a [routerLink]="['/link']" routerLinkActive="router-link-active" >
-        Links
-    </a>
-    <div><h1 class="main-header">Sanderson and the Cosmere</h1></div> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+            <h1 class="main-header my-auto" [routerLink]="['/']" routerLinkActive="router-link-active" >
+                Sanderson and the Cosmere
+            </h1>
+
+            <a class=navbar-brand [routerLink]="['main']" routerLinkActive="router-link-active">
+                Books
+            </a>
+
+            <a class=navbar-brand [routerLink]="['/bio']" routerLinkActive="router-link-active" >
+                Biography
+            </a>
+
+            <a class=navbar-brand [routerLink]="['/link']" routerLinkActive="router-link-active" >
+                Links
+            </a>
+    </div>
 </nav>
-
-
-<div>
-    <img [src]=src alt="Words about picture" class="rounded" height="500" width="500"/>
-</div>
-
 <router-outlet></router-outlet>
