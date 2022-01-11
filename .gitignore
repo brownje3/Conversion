@@ -46,3 +46,5 @@ testem.log
 Thumbs.db
 src/assets/img/brandonmain.jpg
 src/favicon.ico
+package-lock.json
+package.json
