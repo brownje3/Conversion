@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav" id="navigator">
+
+                    <a class="navbar-brand" id="head" [routerLink]="['']" routerLinkActive="router-link-active" style="font-weight: bold;">
+                        Sanderson and the Cosmere
+                    </a>
+                    <a class=navbar-brand [routerLink]="['books']" routerLinkActive="router-link-active">
+                        Books
+                    </a>
+                    <a class=navbar-brand [routerLink]="['bio']" routerLinkActive="router-link-active" >
+                        Biography
+                    </a>
+        
+                    <li class="nav-item dropdown">
+                        <a class="navbar-brand dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Related Links
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://www.brandonsanderson.com">Brandon Sanderon's Official Website</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.17thshard.com">The 17th Shard</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div> 
+    </div>
+</nav>

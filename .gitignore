@@ -44,7 +44,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-src/assets/img/brandonmain.jpg
 src/favicon.ico
 package-lock.json
 package.json
+src/assets/img/
